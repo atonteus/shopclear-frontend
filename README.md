@@ -6,5 +6,5 @@
 
   
   
-<h2 align="center">Shop Clear Front End</h2>
+<h2 align="center">Footer</h2>
 
