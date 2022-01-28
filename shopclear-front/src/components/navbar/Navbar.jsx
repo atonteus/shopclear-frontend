@@ -4,4 +4,5 @@ import './menu.css';
 
 const Navbar = () => (
     <div className= "shop__navbar"></div>
+    <div className= "shop__navbar-links"></div>
 )
