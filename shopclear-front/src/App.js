@@ -1,23 +1,19 @@
-import logo from './assets/shopclear.svg';
+import React from 'react';
+import {Navbar} from './components'
+import {Header, Footer, Article } from './components'
 import './App.css';
 
-const App = () => {
-  return (
+const App = () => (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        
-        <a
-          className="about-link"
-          href="https://fractalbases.com/sources/shopclear/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          About
-        </a>
-      </header>
-    </div>
+      <div className="gradient__main">
+        <Navbar/>
+        <Header/>
+      </div>
+      <Article/>
+      <Footer/>
+      </div>
   );
-}
+
 
 export default App;
