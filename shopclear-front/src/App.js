@@ -1,6 +1,6 @@
 import React from 'react';
 import {Navbar} from './components'
-import {Header, Footer, Article } from './components'
+// import {Header, Footer} from '/containers'
 import './App.css';
 
 const App = () => (
@@ -8,10 +8,11 @@ const App = () => (
     <div className="App">
       <div className="gradient__main">
         <Navbar/>
-        <Header/>
+        <Navbar/>
+        {/* <Header/> */}
       </div>
-      <Article/>
-      <Footer/>
+      {/* <Article/> */}
+      {/* <Footer/> */}
       </div>
   );
 
