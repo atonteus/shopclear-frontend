@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../shopclear.svg";
+import logo from "../../assets/shopclear.svg";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -11,7 +11,6 @@ const Navbar = () => {
         </div>
         <div ClassName="shop__navbar-links_container">
            <p><a href="#home">Home</a></p>
-           <p><a href="#services"></a>Services</p>
            <p><a href="#cases">Cases</a></p>
            <p><a href="#about">About</a></p>
            <p><a href="#article">Article</a></p>
