@@ -2,7 +2,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    padding: 2rem 6rem;
+    padding: 2rem 6rem; 
     
 }
+
+.shop__navbar-links {
+    flex: 1;
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center;
+
+} 
+
+.shop__navbar-links_logo {
+    margin-right: 2rem;
+}
+
