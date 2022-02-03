@@ -8,7 +8,7 @@ const App = () => (
     <div className="App">
       <div className="gradient__main">
         <Navbar/>
-        <Navbar/>
+        
         {/* <Header/> */}
       </div>
       {/* <Article/> */}
