@@ -1,10 +1,10 @@
 <h1 align="center">Shop Clear Front End</h1>
 
-<p align="center">Projeto para UI's Shop Clear</p>
-<p align="center">utilizando Class Components</p>
+<p align="center"> UI's Shop Clear</p>
+<p align="center"></p>
 
 
   
-  
-<h2 align="center">Footer</h2>
+
+<h2 align="center"></h2>
 
