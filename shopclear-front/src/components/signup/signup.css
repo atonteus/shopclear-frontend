@@ -1,0 +1,89 @@
+.shop__signup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
+    background: var(--gradient-bar)
+}
+
+.shop__signup-content {
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+    color: #fff;
+}
+
+.shop__signup-content p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.shop__signup-content h3 {
+    font-family: var(--font-family);
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 800;
+}
+
+.shop__signup-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 2rem;
+}
+
+.shop__signup-btn button:hover {
+    background: #7ccddd;
+    color: #fff;
+}
+
+.shop__signup-btn button {
+    background: #fff;;
+    color: #8debfc;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+    min-width: 150px;
+}
+
+@media screen and (max-width: 650px) {
+    .shop__signup {
+        flex-direction: column;
+    }
+
+    .shop__signup-btn {
+        margin: 2rem 0 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .shop__signup {
+        flex-direction: column;
+        margin: 4rem 2rem;
+    }
+
+    .shop__signup-content h3 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .shop__signup-btn button {
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
