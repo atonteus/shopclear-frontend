@@ -4,7 +4,7 @@
   --font-family: 'Montserrat', sans-serif;
 
   --gradient-text: linear-gradient(89.97deg, #150135 1.84%, #8debfc 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #6a54e7 -13.86%, #8debfc 99.55%);
+  --gradient-bar: linear-gradient(103.22deg, #0becce -13.86%, #8debfc 99.55%);
   
   --color-bg: #150135;
   --color-footer : #150135;
@@ -27,4 +27,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
