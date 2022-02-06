@@ -1,4 +1,6 @@
 import React from 'react';
+// import contAcess from '../../assets/contAcess.png';
+// import modelServiceProvider from '../../assets/modelServiceProvider.png';
 import './header.css';
 
 const Header = () => (
@@ -13,13 +15,14 @@ const Header = () => (
       </div>
 
       <div className="shop__header-content__people">
+        {/* <img src={contAcess} alt=''/> */}
         <p>Cont acess</p>
       </div>
     </div>
 
     <div className="shop__header-image">
+      {/* <img src={modelServiceProvider} alt=''/> */}
     </div>
   </div>
 );
-
 export default Header;
